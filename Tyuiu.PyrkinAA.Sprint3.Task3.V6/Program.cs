@@ -5,15 +5,15 @@ namespace Tyuiu.PyrkinAA.Sprint3.Task3.V6
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService(); 
+            DataService ds = new DataService();
 
-            string value = "12able 1o s4gh"; 
-            char item = '*';               
+            string value = "12able 1o s4gh";
+            char item = '*';
 
             Console.WriteLine("Исходная строка: " + value);
             Console.WriteLine("Символ для замены цифр: " + item);
 
-            string res = ds.ReplaceNumOnChar(value, item); 
+            string res = ds.ReplaceNumOnChar(value, item);
 
             Console.WriteLine("Результат: " + res);
             Console.ReadKey();

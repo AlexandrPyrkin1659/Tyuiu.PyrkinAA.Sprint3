@@ -5,21 +5,22 @@ namespace Tyuiu.PyrkinAA.Sprint3.Task3.V6.Lib
     {
         public string ReplaceNumOnChar(string value, char item)
         {
-            string result = ""; 
+            string result = ""; // Создаём пустую строку для результата
 
-            foreach (char c in value) 
+            foreach (char c in value)
             {
-                if (Char.IsDigit(c)) 
+                if (Char.IsDigit(c))
                 {
-                    result += item; 
+                    result += item;
                 }
                 else
                 {
-                    result += c; 
+                    result += c;
                 }
             }
 
-            return result; 
+            return result;
         }
     }
 }
+
