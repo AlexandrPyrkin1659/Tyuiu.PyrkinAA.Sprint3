@@ -5,7 +5,7 @@ namespace Tyuiu.PyrkinAA.Sprint3.Task3.V6.Lib
     {
         public string ReplaceNumOnChar(string value, char item)
         {
-            string result = ""; // Создаём пустую строку для результата
+            string result = ""; 
 
             foreach (char c in value)
             {

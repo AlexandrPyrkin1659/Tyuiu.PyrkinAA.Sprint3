@@ -27,13 +27,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PyrkinAA.Sprint3.Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PyrkinAA.Sprint3.Task2.V28.Test", "Tyuiu.PyrkinAA.Sprint3.Task2.V28.Test\Tyuiu.PyrkinAA.Sprint3.Task2.V28.Test.csproj", "{65124C36-4E4A-4D45-AE21-4414B88C2A3A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{E448BAF8-6EBB-42D0-B082-E69EB8928407}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{E448BAF8-6EBB-42D0-B082-E69EB8928407}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PyrkinAA.Sprint3.Task3.V6.Test", "Tyuiu.PyrkinAA.Sprint3.Task3.V6.Test\Tyuiu.PyrkinAA.Sprint3.Task3.V6.Test.csproj", "{824ED1E9-BCC0-4606-ABE4-DDF45DF244FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PyrkinAA.Sprint3.Task3.V6.Lib", "Tyuiu.PyrkinAA.Sprint3.Task3.V6.Lib\Tyuiu.PyrkinAA.Sprint3.Task3.V6.Lib.csproj", "{1DBE5C0D-33EE-4AE8-9998-662CDC0999EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PyrkinAA.Sprint3.Task3.V6", "Tyuiu.PyrkinAA.Sprint3.Task3.V6\Tyuiu.PyrkinAA.Sprint3.Task3.V6.csproj", "{2CE08C73-AA16-4EA1-A827-55862AAEA48E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{83869632-A199-4B8E-8E68-ACF5C3B7F776}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
