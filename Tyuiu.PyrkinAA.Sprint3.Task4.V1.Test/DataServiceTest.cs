@@ -7,10 +7,13 @@ namespace Tyuiu.PyrkinAA.Sprint3.Task4.V1.Test
         [TestMethod]
         public void TestMethodIC()
         {
-            DataService ds = new DataService();
-            double res = ds.Calculate(-5, 5);
-            double wait = 2.924; 
-            Assert.AreEqual(wait, res, 0.001); 
+          DataService ds = new DataService();
+            int startValue = -5;
+            int stopValue = 5;
+            double res = ds.Calculate(startValue, stopValue);
+            double wait = 0.962;
+            Assert.AreEqual(res, wait);
+
         }
     }
 }

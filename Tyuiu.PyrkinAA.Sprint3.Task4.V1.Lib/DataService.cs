@@ -5,19 +5,19 @@ namespace Tyuiu.PyrkinAA.Sprint3.Task4.V1.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double sum = 0.0;
-            for (int x = startValue; x <= stopValue; x++)
+           double res = 0;
+           for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0)
                 {
-                    sum += 1; 
+                    break;
                 }
                 else
                 {
-                    sum += Math.Sin(x) / x;
+                    res = res + (Math.Sin(x)/x);
                 }
             }
-            return sum;
+            return Math.Round(res, 3);
         }
     }
 }
