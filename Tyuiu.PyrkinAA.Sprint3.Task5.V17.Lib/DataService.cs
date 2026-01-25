@@ -8,16 +8,15 @@ namespace Tyuiu.PyrkinAA.Sprint3.Task5.V17.Lib
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
             double SumSumSeries = 0;
-            double xSquared = Math.Pow(x, 2);
 
-           
+            
             for (int i = startValue1; i <= stopValue1; i++)
             {
                 
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                  
-                    SumSumSeries += Math.Sin(k + xSquared);
+                    
+                    SumSumSeries += Math.Sin(k) + Math.Pow(x, 2);
                 }
             }
 
